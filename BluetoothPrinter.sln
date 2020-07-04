@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluetoothPrinter.Android", "BluetoothPrinter\BluetoothPrinter.Android\BluetoothPrinter.Android.csproj", "{8139187E-FDFD-43C2-AF4B-895280D2EF4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluetoothPrinter", "BluetoothPrinter\BluetoothPrinter\BluetoothPrinter.csproj", "{693E45FA-E5D9-422A-AF20-E17AF433F575}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8139187E-FDFD-43C2-AF4B-895280D2EF4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8139187E-FDFD-43C2-AF4B-895280D2EF4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8139187E-FDFD-43C2-AF4B-895280D2EF4F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8139187E-FDFD-43C2-AF4B-895280D2EF4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8139187E-FDFD-43C2-AF4B-895280D2EF4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8139187E-FDFD-43C2-AF4B-895280D2EF4F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{693E45FA-E5D9-422A-AF20-E17AF433F575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{693E45FA-E5D9-422A-AF20-E17AF433F575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{693E45FA-E5D9-422A-AF20-E17AF433F575}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{693E45FA-E5D9-422A-AF20-E17AF433F575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{693E45FA-E5D9-422A-AF20-E17AF433F575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{693E45FA-E5D9-422A-AF20-E17AF433F575}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {824AC96A-C52E-46C6-A529-42C5DF658A5B}
+	EndGlobalSection
+EndGlobal

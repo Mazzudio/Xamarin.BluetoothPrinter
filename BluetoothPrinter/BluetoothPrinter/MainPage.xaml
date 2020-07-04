@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BluetoothPrinter.MainPage">
+    <StackLayout Margin="20, 0, 20, 0" VerticalOptions="CenterAndExpand">
+        <StackLayout Margin="0, 0, 0, 50" Orientation="Horizontal" HorizontalOptions="FillAndExpand" Spacing="20">
+            <Entry x:Name="printerNameEntry" HorizontalOptions="Start" IsReadOnly="True" Placeholder="Please select printer."> 
+            </Entry>
+            <Button x:Name="selectButton" Text="Select" Clicked="selectPrinterButton_Clicked" VerticalOptions="Center"></Button>
+        </StackLayout>
+        <Label Text="Text for print." />
+        <Editor x:Name="printBox" 
+                Text="This is sample text." 
+                Placeholder="Input text here (120 characters max)" 
+                MaxLength="120" 
+                AutoSize="TextChanges" 
+                HorizontalOptions="FillAndExpand"></Editor>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="0, 20, 0, 0" Spacing="20">
+            <Button x:Name="printQrButton" Text="Print QR" Clicked="printQrButton_Clicked" WidthRequest="150" IsEnabled="False"></Button>
+            <Button x:Name="printTextButton" Text="Print Text" Clicked="printTextButton_Clicked" WidthRequest="150" IsEnabled="False"></Button>
+        </StackLayout>  
+    </StackLayout>
+
+</ContentPage>
